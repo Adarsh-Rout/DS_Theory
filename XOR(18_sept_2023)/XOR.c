@@ -100,6 +100,6 @@ void display(node *start)
             }
             prev = (node *)((unsigned int)prev ^ (unsigned int)temp);
         }
-        printf(" %d\n", prev->data);
+        
     }
 }
